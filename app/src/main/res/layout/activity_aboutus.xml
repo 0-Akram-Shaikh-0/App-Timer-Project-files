@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus"
+    android:background="@color/cardview_dark_background"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:text="ABOUT US"
+                android:textColor="#ffffff"
+                android:textSize="60dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/collegeicon" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Currently we are Studying Masters Of Computer Applications in Vivekanand Education Society's Institute of Technology We are 1st Year Students. Being an addict to, Youtube, Social-Media and playing Games on phone , we thought of making this dynamic social locker, which will keep us away."
+                android:textColor="@color/colorAccent"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text='"Life is what happens when your sell phone is charging"'
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="15dp"
+                android:text="Developers:"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Sahil Goliwar"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Mohammad Akram Shaikh"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="Rishabh Jain"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
